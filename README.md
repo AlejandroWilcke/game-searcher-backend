@@ -23,7 +23,6 @@ In root folder:
 # Using the program
 ```
 You can access the client on http://localhost:5000
-You can click on the committer's name and commit to access their respective URLs.
 ```
 
 ## Eslint
