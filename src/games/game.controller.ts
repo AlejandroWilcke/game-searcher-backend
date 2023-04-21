@@ -12,6 +12,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { GameService } from './game.service';
 import { GameDto } from './dto/game.dto';
 import storage from 'src/config/multer/storage';
+import { Express } from 'express';
 
 @Controller('games')
 export class GameController {
