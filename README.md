@@ -22,7 +22,12 @@ In root folder:
 
 # Using the program
 ```
-You can access the client on http://localhost:5000
+You can access the API on: 
+GET http://localhost:5000/api/v1/games
+GET http://localhost:5000/api/v1/games?name={regexp}
+GET http://localhost:5000/api/v1/games/topGames
+GET http://localhost:5000/api/v1/{id}
+POST http://localhost:5000/api/v1/games
 ```
 
 ## Eslint
