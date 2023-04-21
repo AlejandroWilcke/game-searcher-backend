@@ -8,7 +8,7 @@ Clone the project in your local machine:
 git clone https://github.com/AlejandroWilcke/game-searcher-backend.git
 ```
 
-# Instalation
+# Installation
 
 In root folder:
 ```
@@ -26,7 +26,7 @@ You can access the API on:
 GET http://localhost:5000/api/v1/games
 GET http://localhost:5000/api/v1/games?name={regexp}
 GET http://localhost:5000/api/v1/games/topGames
-GET http://localhost:5000/api/v1/{id}
+GET http://localhost:5000/api/v1/games/{id}
 POST http://localhost:5000/api/v1/games
 ```
 
