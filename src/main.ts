@@ -9,6 +9,6 @@ async function bootstrap() {
     type: VersioningType.URI,
   });
   app.enableCors();
-  await app.listen(process.env.NODE_PORT || 5000);
+  await app.listen(process.env.PORT || 5000);
 }
 bootstrap();
