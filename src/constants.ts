@@ -1,0 +1,1 @@
+export const GAMES_REPOSITORY = 'GAMES_REPOSITORY';
