@@ -1,4 +1,4 @@
-game-searcher-frontend: Restful API about games, NestJS + Typescript + PostgresQL + Sequelize.
+game-searcher-backend: Restful API about games, NestJS + Typescript + PostgresQL + Sequelize.
 
 ## Setup
 
