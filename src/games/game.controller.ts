@@ -28,6 +28,11 @@ export class GameController {
     return this.gameService.create(gameDto);
   }
 
+  @Get('topGames')
+  findTopGames(): Promise<GameDto[]> {
+    return this.gameService.getTopGames();
+  }
+
   @Get(':id')
   findOne(@Param('id') id: number): Promise<GameDto> {
     return this.gameService.findOne(id);
@@ -36,10 +41,5 @@ export class GameController {
   @Get()
   findAll(@Query('name') name: string): Promise<GameDto[]> {
     return this.gameService.getGames(name);
-  }
-
-  @Get('topGames')
-  findTopGames(): Promise<GameDto[]> {
-    return this.gameService.getTopGames();
   }
 }
